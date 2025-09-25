@@ -66,7 +66,7 @@ namespace ClinicAppointmentSystem.Controllers
             return View(model);
         }
 
-        // GET: Login
+        // GET: Login 
         [HttpGet]
         public IActionResult Login() => View();
 
