@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Patient Dashboard";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Welcome, Patient!</h1>
+    <p class="lead">Manage your appointments and schedule new visits.</p>
+
+    <div class="row">
+        <!-- Book Appointment Card -->
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Book Appointment</h5>
+                    <p class="card-text">Schedule a new appointment with your doctor.</p>
+                    <a class="btn btn-primary" asp-controller="Patients" asp-action="BookAppointment">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- My Appointments Card -->
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h5 class="card-title">My Appointments</h5>
+                    <p class="card-text">View your upcoming or past appointments.</p>
+                    <a class="btn btn-success" asp-controller="Patients" asp-action="MyAppointments">View Appointments</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

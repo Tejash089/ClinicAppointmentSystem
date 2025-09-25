@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Book Appointment";
+}
+
+<h2 class="mb-4">Book Appointment</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<form asp-action="BookAppointment" method="post" class="row g-3">
+    <div class="col-md-6">
+        <label for="doctorId" class="form-label">Select Doctor</label>
+        <select name="doctorId" id="doctorId" class="form-select" required>
+            <option value="">-- Choose Doctor --</option>
+            @foreach (var doc in ViewBag.Doctors)
+            {
+                <option value="@doc.Id">@doc.Name (@doc.Specialization)</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-6">
+        <label for="dateTime" class="form-label">Date & Time</label>
+        <input type="datetime-local" name="dateTime" id="dateTime" class="form-control" required />
+    </div>
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Book Appointment</button>
+    </div>
+</form>

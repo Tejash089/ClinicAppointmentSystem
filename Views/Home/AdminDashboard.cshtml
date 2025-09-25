@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Welcome, Admin!</h1>
+    <p class="lead">Manage all aspects of the clinic from here.</p>
+
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Doctors</h5>
+                    <p class="card-text">Add, edit, or remove doctors.</p>
+                    <a class="btn btn-primary" asp-controller="Doctors" asp-action="Index">Manage Doctors</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Patients</h5>
+                    <p class="card-text">Manage patient profiles and information.</p>
+                    <a class="btn btn-success" asp-controller="Patients" asp-action="Index">Manage Patients</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Appointments</h5>
+                    <p class="card-text">View, edit, or delete appointments.</p>
+                    <a class="btn btn-warning" asp-controller="Appointments" asp-action="Index">Manage Appointments</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
