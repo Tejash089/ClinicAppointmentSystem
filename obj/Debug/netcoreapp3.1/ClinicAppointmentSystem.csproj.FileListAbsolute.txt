@@ -359,3 +359,4 @@ C:\Users\amd\Desktop\Sem 5\ClinicAppointmentSystem\ClinicAppointmentSystem\Clini
 C:\Users\amd\Desktop\Sem 5\ClinicAppointmentSystem\ClinicAppointmentSystem\ClinicAppointmentSystem\obj\Debug\netcoreapp3.1\Razor\Views\Patients\MyAppointments.cshtml.g.cs
 C:\Users\amd\Desktop\Sem 5\ClinicAppointmentSystem\ClinicAppointmentSystem\ClinicAppointmentSystem\obj\Debug\netcoreapp3.1\Razor\Views\Doctors\MyAppointments.cshtml.g.cs
 C:\Users\amd\Desktop\Sem 5\ClinicAppointmentSystem\ClinicAppointmentSystem\ClinicAppointmentSystem\obj\Debug\netcoreapp3.1\Razor\Views\Doctors\MyPatients.cshtml.g.cs
+C:\Users\amd\Desktop\Sem 5\ClinicAppointmentSystem\ClinicAppointmentSystem\ClinicAppointmentSystem\obj\Debug\netcoreapp3.1\ClinicAppointmentSystem.sourcelink.json
