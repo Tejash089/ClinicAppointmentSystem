@@ -16,9 +16,7 @@ namespace ClinicAppointmentSystem.Models
         [Display(Name = "Date of Birth")]
         public DateTime DateOfBirth { get; set; }
 
-        //[Required(ErrorMessage = "Role is required")]
-        //[Display(Name = "User Role")]
-        //public string Role { get; set; } // Example values: "Admin", "Doctor", "Patient"
+       
 
         [StringLength(200)]
         [Display(Name = "Address")]
